@@ -11,6 +11,16 @@
     background-color: #fff;
     color: #96c11e;
 }
+
+body::-webkit-scrollbar{
+    width: 0.5rem;
+    background-color: #000;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #96c11e;
+    border-radius: 0.5rem;
+}
+
 html,body {
   width: 100%;
   height: 100%;

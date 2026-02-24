@@ -76,7 +76,7 @@ gsap.to('#packages p',{
     scrollTrigger:{
         scroller:'body',
         trigger:'#packages',
-        markers: true,
+        // markers: true,
         start: 'top 90%',
         end: 'top 70%',
         scrub: 3
